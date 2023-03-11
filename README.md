@@ -23,3 +23,11 @@ to run django server
 go to src
 
 python manage.py runserver
+
+after writing a model
+
+python manage.py makemigrations
+
+this will create tables
+
+python manage.py migrate

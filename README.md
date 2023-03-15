@@ -1,39 +1,39 @@
 # Study-Buddy
 
-Install virtual env
+[Live Site](https://study-buddy-3k84.onrender.com/)
 
-pip install virtualenv
+### To install required packages present in requirements.txt
 
-create virtual env
+>>> pip install -r requirements.txt 
 
-python -m virtualenv env
+Run server
 
-to activate virtual env
-
-source env/Scripts/activate
-
-pip install django
-
-to see django commands
-
-django-admin 
-
-to run django server
-
-go to src
-
-python manage.py runserver
+>>> python manage.py runserver
 
 after writing a model
 
-python manage.py makemigrations
+### To create and update tables
+
+### To install required packages present in requirements.txt
+
+>>> pip install -r requirements.txt python manage.py makemigrations
 
 this will create tables
 
-python manage.py migrate
+### To install required packages present in requirements.txt
 
-pip install djangorestframework
+>>> pip install -r requirements.txt python manage.py migrate
 
-python -m pip install django-cors-headers
+### Working with virtual env
 
-python -m pip install Pillow
+Install virtual env
+
+>>> pip install virtualenv
+
+create virtual env
+
+>>> python -m virtualenv env
+
+to activate virtual env
+
+>>> source env/Scripts/activate

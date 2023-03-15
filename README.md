@@ -4,11 +4,11 @@
 
 ### To install required packages present in requirements.txt
 
->>> pip install -r requirements.txt 
+pip install -r requirements.txt 
 
 Run server
 
->>> python manage.py runserver
+ python manage.py runserver
 
 after writing a model
 
@@ -16,24 +16,24 @@ after writing a model
 
 ### To install required packages present in requirements.txt
 
->>> pip install -r requirements.txt python manage.py makemigrations
+pip install -r requirements.txt python manage.py makemigrations
 
 this will create tables
 
 ### To install required packages present in requirements.txt
 
->>> pip install -r requirements.txt python manage.py migrate
+pip install -r requirements.txt python manage.py migrate
 
 ### Working with virtual env
 
 Install virtual env
 
->>> pip install virtualenv
+pip install virtualenv
 
 create virtual env
 
->>> python -m virtualenv env
+python -m virtualenv env
 
 to activate virtual env
 
->>> source env/Scripts/activate
+source env/Scripts/activate

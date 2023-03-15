@@ -10,7 +10,7 @@ python -m virtualenv env
 
 to activate virtual env
 
-. env/Scripts/activate
+source env/Scripts/activate
 
 pip install django
 
@@ -31,3 +31,9 @@ python manage.py makemigrations
 this will create tables
 
 python manage.py migrate
+
+pip install djangorestframework
+
+python -m pip install django-cors-headers
+
+python -m pip install Pillow
